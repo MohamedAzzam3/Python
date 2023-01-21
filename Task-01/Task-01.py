@@ -1,3 +1,4 @@
+
 def replace_1(string, position, character):
     i=list(string)
     i[position]=character
@@ -7,4 +8,4 @@ def replace_1(string, position, character):
 x = input("please enter a string \n")
 y = int(input("please enter the position of the char to replace \n"))
 z = input("please enter the character \n")
-replace_1(x,y,
+replace_1(x,y,z)
